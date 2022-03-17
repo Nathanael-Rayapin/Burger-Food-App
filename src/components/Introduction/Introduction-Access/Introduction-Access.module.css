@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.intro-access {
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.intro-access h1 {
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.intro-access h1 span {
+  color: #fbaf32;
+}
+
+.intro-access p {
+  font-size: 20px;
+  margin-bottom: 35px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.intro-access button {
+  padding: 12px 25px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button-view {
+  margin-right: 1rem;
+  border: 2px solid #fbaf32;
+  background: #fbaf32;
+  transition: all 0.4s;
+}
+
+.button-view:hover {
+  background: transparent;
+}
+
+.button-book {
+  margin-left: 1rem;
+  border: 2px solid #719a0a;
+  background: #719a0a;
+  transition: all 0.4s;
+}
+
+.button-book:hover {
+  background: transparent;
+}
