@@ -1,0 +1,184 @@
+/* Menu */
+.menu {
+  margin-top: 8em;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 700;
+  color: #719a0a;
+  border: 5px solid #719a0a;
+}
+
+.title span {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffa600;
+  letter-spacing: 1em;
+  left: 1.8rem;
+  text-align: center;
+}
+
+/* Grid */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #fff;
+  color: #444;
+  background: #242424;
+}
+
+/* Burger & Burger Ads */
+
+.burger,
+.tacos {
+  position: relative;
+  background-color: rgb(36, 36, 36);
+  color: #fff;
+  height: 450px;
+  padding: 20px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.burger h1,
+.tacos h1 {
+  margin-top: 0;
+  text-align: center;
+  color: #ffa600;
+  text-transform: uppercase;
+}
+
+.burger p,
+.tacos p,
+.pizza p {
+  text-align: justify;
+}
+
+.burgerAds {
+  position: relative;
+  background-color: #ffa600;
+  color: #fff;
+  height: 450px;
+  padding: 20px;
+  font-size: 150%;
+  margin: 2em 2em 0 0;
+  border-radius: 5px;
+}
+
+.burger img,
+.burgerAds img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.burgerAds .burgerAdsImg {
+  transform: rotate(-10deg);
+  position: relative;
+  z-index: 2;
+}
+
+.burgerAds .friesAdsImg {
+  transform: rotate(17deg) translateX(-50px) translateY(20px);
+  position: relative;
+  z-index: 1;
+}
+
+.burgerAds h1,
+.burgerAds h1 span {
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+}
+
+.burgerAds h1 {
+  font-size: 55px;
+}
+
+.burgerAds h1 span {
+  font-size: 75px;
+}
+
+.burgerAds p {
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+
+.burgerAds p span {
+  margin-top: 0;
+  font-size: 80px;
+  color: red;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Tacos */
+.tacos img {
+  width: 450px;
+  height: 450px;
+}
+
+/* Pizza */
+.pizza {
+  position: relative;
+  background-color: rgb(36, 36, 36);
+  color: #fff;
+  height: 450px;
+  padding: 20px;
+  font-size: 150%;
+  text-align: center;
+  padding-left: 4em;
+}
+
+.pizza h1 {
+  margin-top: 0;
+  text-align: start;
+  color: #ffa600;
+  text-transform: uppercase;
+}
+
+.pizzaImg {
+  position: relative;
+  background-color: rgb(36, 36, 36);
+  color: #fff;
+  height: 450px;
+  padding: 20px;
+  font-size: 150%;
+  text-align: center;
+  padding-left: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pizzaImg img {
+  width: 600px;
+}
+
+/* General */
+.margin-bottom {
+  margin-bottom: 0;
+}
+
+.margin-right {
+  margin-right: 8em;
+}
+
+.d-flex {
+  display: flex;
+  background: rgb(36, 36, 36);
+}
+
+.d-flex-burgerAds {
+  display: flex;
+  background: #ffa600;
+}
