@@ -1,15 +1,19 @@
-import Header from './components/Header/Header';
-import './App.css';
 import { Fragment } from 'react';
-import Introduction from './components/Introduction/Introduction';
-import Book from './components/Book/Book';
+import Header from './components/Header/Header';
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/Home/home';
+import Menu from './components/Menu/menu';
+import './App.css';
 
 function App() {
   return (
     <Fragment>
       <Header />
-      <Introduction />
-      <Book />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/Booking" />
+      </Routes>
     </Fragment>
   );
 }

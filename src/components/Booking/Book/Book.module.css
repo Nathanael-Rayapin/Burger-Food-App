@@ -1,0 +1,6 @@
+.book {
+  position: relative;
+  width: 75%;
+  display: flex;
+  margin: auto;
+}
