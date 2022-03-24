@@ -21,6 +21,9 @@ const Header = (props) => {
                 <li>
                     <Link to='/booking'>Booking</Link>
                 </li>
+                <li>
+                    <Link to='/register'>Sign up</Link>
+                </li>
             </ul>
         </header>
     );
