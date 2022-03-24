@@ -1,0 +1,100 @@
+.container-register {
+  display: flex;
+  justify-content: space-between;
+  background: #242424;
+  min-height: 100vh;
+}
+
+/* Intro */
+.intro {
+  position: relative;
+  text-align: start;
+  color: #fff;
+  margin: 8em 0 0 6em;
+}
+
+.intro h1 {
+}
+
+/* Card */
+.card {
+  position: relative;
+  padding: 2rem;
+  border-radius: 20px;
+  background: #fff;
+  margin: 8em 6em 0 0;
+}
+
+.card h1 {
+  margin: 0 0 0.5rem 0;
+  background: #fbaf32;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.input-group label {
+  margin-bottom: 0.5rem;
+}
+
+.input-group input {
+  position: relative;
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.input-group input:focus {
+  outline: none;
+}
+
+button {
+  font-size: 25px;
+  color: #000;
+  padding: 0.2rem 1rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  background: #fbaf32;
+  width: 100%;
+  border: none;
+}
+
+/* Check Password */
+.easyCheck {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background: red;
+  right: 0;
+  bottom: 1rem;
+}
+
+.normalCheck {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background: yellow;
+  right: 0;
+  bottom: 1rem;
+}
+
+.strongCheck {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background: green;
+  right: 0;
+  bottom: 1rem;
+}
