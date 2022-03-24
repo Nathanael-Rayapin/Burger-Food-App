@@ -9,12 +9,13 @@ const IntroductionAccess = (props) => {
                 Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi<br /> sagittis,
                 orci sodales varius fermentum, tortor
             </p>
-            <div>
+            <div className={classes['d-flex']}>
                 <Link to='/menu'>
                     <button className={classes['button-view']}>View Menu</button>
                 </Link>
-
-                <button className={classes['button-book']}>Book Table</button>
+                <Link to='/booking'>
+                    <button className={classes['button-book']}>Book Table</button>
+                </Link>
             </div>
         </div>
     );

@@ -26,6 +26,12 @@
   line-height: 1.5;
 }
 
+/* Button */
+.d-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .intro-access button {
   padding: 12px 25px;
   font-family: "Nunito", sans-serif;
@@ -38,7 +44,6 @@
 }
 
 .button-view {
-  margin-right: 1rem;
   border: 2px solid #fbaf32;
   background: #fbaf32;
   transition: all 0.4s;
